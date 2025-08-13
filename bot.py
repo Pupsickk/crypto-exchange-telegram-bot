@@ -22,8 +22,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8118312596:AAHPuaxl5PKxgiLjWXlTl9-zbT0UE-Z4k04"
-ADMIN_ID = "649815636"
+BOT_TOKEN = ""#ваш токен
+ADMIN_ID = ""#ваш ID
 
 bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
@@ -428,3 +428,4 @@ async def main():
 
 if __name__=="__main__":
     asyncio.run(main())
+
