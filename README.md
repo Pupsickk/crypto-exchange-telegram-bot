@@ -64,4 +64,3 @@ A secure cryptocurrency/fiat exchange bot with admin moderation features.
 ![photo_3_2025-07-27_15-26-44](https://github.com/user-attachments/assets/c395224e-e898-4ae7-8352-ebe61d9ae0cd)
 ![photo_2_2025-07-27_15-26-44](https://github.com/user-attachments/assets/ac1e961f-86a1-41bd-a67d-24c39f0134af)
 <img width="713" height="823" alt="Снимок экрана 2025-07-27 152557" src="https://github.com/user-attachments/assets/0c3a1d6e-abb6-4f04-988b-33054a90ce69" />
-hoto_1_2025-07-27_15-26-44](https://github.com/user-attachments/assets/8df855db-6faa-48f2-aaff-b295d5661f15)
