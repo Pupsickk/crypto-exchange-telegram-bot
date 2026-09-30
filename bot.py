@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 import logging
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
@@ -22,8 +24,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = ""#ваш токен
-ADMIN_ID = ""#ваш ID
+load_dotenv()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+ADMIN_ID = os.getenv("ADMIN_ID", "").strip()
+if not BOT_TOKEN or not ADMIN_ID.isdigit():
+    raise RuntimeError("Set BOT_TOKEN and numeric ADMIN_ID in .env before starting the bot.")
 
 bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
